@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & Models (too large for GitHub)
+data/
+datasets/
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.pkl
+
+# Outputs (keep outputs/ folder but ignore large files inside)
+outputs/*.png
+outputs/*.jpg
+outputs/*.npy
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+.venv/
